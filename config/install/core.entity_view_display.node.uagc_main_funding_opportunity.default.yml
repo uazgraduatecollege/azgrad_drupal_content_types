@@ -1,0 +1,186 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.uagc_main_funding_opportunity.field_funding_about
+    - field.field.node.uagc_main_funding_opportunity.field_funding_amount_awarded
+    - field.field.node.uagc_main_funding_opportunity.field_funding_application_period
+    - field.field.node.uagc_main_funding_opportunity.field_funding_apply_now
+    - field.field.node.uagc_main_funding_opportunity.field_funding_contact
+    - field.field.node.uagc_main_funding_opportunity.field_funding_eligibility
+    - field.field.node.uagc_main_funding_opportunity.field_funding_eligible_category
+    - field.field.node.uagc_main_funding_opportunity.field_funding_number_awarded
+    - field.field.node.uagc_main_funding_opportunity.field_funding_process
+    - field.field.node.uagc_main_funding_opportunity.field_funding_type
+    - node.type.uagc_main_funding_opportunity
+  module:
+    - field_group
+    - text
+    - user
+  enforced:
+    module:
+      - grad_content_types
+third_party_settings:
+  field_group:
+    group_at_a_glance:
+      children:
+        - field_funding_number_awarded
+        - field_funding_amount_awarded
+        - field_funding_application_period
+        - field_funding_type
+        - field_funding_process
+        - field_funding_eligible_category
+      label: 'At a Glance'
+      parent_name: ''
+      region: content
+      weight: 0
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        description: ''
+    group_about:
+      children:
+        - field_funding_about
+      label: About
+      parent_name: ''
+      region: content
+      weight: 1
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        description: ''
+    group_eligibility:
+      children:
+        - field_funding_eligibility
+      label: Eligibility
+      parent_name: ''
+      region: content
+      weight: 2
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        description: ''
+    group_instructions:
+      children:
+        - field_funding_apply_now
+      label: Instructions
+      parent_name: ''
+      region: content
+      weight: 3
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        description: ''
+    group_contact:
+      children:
+        - field_funding_contact
+      label: Contact
+      parent_name: ''
+      region: content
+      weight: 4
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        description: ''
+_core:
+  default_config_hash: jqZ2kL0XDS2t7z8XhwFNCyvuhyBnPJo-hF5sEo3-_Vs
+id: node.uagc_main_funding_opportunity.default
+targetEntityType: node
+bundle: uagc_main_funding_opportunity
+mode: default
+content:
+  field_funding_about:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_funding_amount_awarded:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_funding_application_period:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_funding_apply_now:
+    type: text_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_funding_contact:
+    type: text_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_funding_eligibility:
+    type: text_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_funding_eligible_category:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_funding_number_awarded:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_funding_process:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_funding_type:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+hidden: {  }

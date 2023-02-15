@@ -1,0 +1,8 @@
+{
+    "name": "uazgraduatecollege/grad_content_types",
+    "description": "This is a custom module for the UA Grad College to re-create custom content types..",
+    "type": "drupal-custom-module",
+    "require": {
+        "drupal/core": "^9.2.13"
+    }
+}

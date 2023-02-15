@@ -1,0 +1,5 @@
+.at-a-glance-fieldset .field__label,
+.at-a-glance-fieldset .field--type-entity-reference .field__label {
+  font-weight: bold;
+  margin: 0 10px 5px 0;
+}

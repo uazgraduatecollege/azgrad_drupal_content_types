@@ -1,0 +1,11 @@
+<?php
+
+function grad_content_types_preprocess_page(&$variables) {
+
+  $node = $variables['node'];
+  if($node && $node->getType() == 'uagc_main_funding_opportunity'){
+    $variables['#attached']['library'][] = 'grad_content_types/funding_type';
+  }
+
+}
+

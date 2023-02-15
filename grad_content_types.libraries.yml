@@ -1,0 +1,4 @@
+funding_type:
+  css:
+    component:
+      css/funding-type.css: {}
