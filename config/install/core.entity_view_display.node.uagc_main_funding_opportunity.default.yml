@@ -36,7 +36,7 @@ third_party_settings:
       weight: 0
       format_type: fieldset
       format_settings:
-        classes: ''
+        classes: at-a-glance-fieldset
         show_empty_fields: false
         id: ''
         description: ''
@@ -93,7 +93,7 @@ third_party_settings:
         id: ''
         description: ''
 _core:
-  default_config_hash: jqZ2kL0XDS2t7z8XhwFNCyvuhyBnPJo-hF5sEo3-_Vs
+  default_config_hash: oBkArnMwipR19bvSDqGkgLaRI1XqZjyf4cOwVMrvSMQ
 id: node.uagc_main_funding_opportunity.default
 targetEntityType: node
 bundle: uagc_main_funding_opportunity
