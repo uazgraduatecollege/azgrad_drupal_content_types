@@ -2,10 +2,10 @@ langcode: en
 status: true
 dependencies:
   module:
-    - grad_content_types
+    - azgrad_drupal_content_types
   enforced:
     module:
-      - grad_content_types
+      - azgrad_drupal_content_types
 name: 'Funding opportunity'
 type: uagc_main_funding_opportunity
 description: ''

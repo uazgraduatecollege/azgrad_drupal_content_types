@@ -14,10 +14,10 @@ dependencies:
     - field.field.node.uagc_main_funding_opportunity.field_funding_eligible_category
     - node.type.uagc_main_funding_opportunity
   module:
-    - grad_content_types
+    - azgrad_drupal_content_types
   enforced:
     module:
-      - grad_content_types
+      - azgrad_drupal_content_types
 id: node.uagc_main_funding_opportunity.default
 targetEntityType: node
 bundle: uagc_main_funding_opportunity

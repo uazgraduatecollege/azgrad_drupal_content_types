@@ -10,10 +10,10 @@ dependencies:
   module:
     - text
     - user
-    - grad_content_types
+    - azgrad_drupal_content_types
   enforced:
     module:
-      - grad_content_types
+      - azgrad_drupal_content_types
 id: node.frequently_asked_question.default
 targetEntityType: node
 bundle: frequently_asked_question

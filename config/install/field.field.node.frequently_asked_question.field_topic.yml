@@ -6,10 +6,10 @@ dependencies:
     - node.type.frequently_asked_question
     - taxonomy.vocabulary.uagc_main_topics
   module:
-    - grad_content_types
+    - azgrad_drupal_content_types
   enforced:
     module:
-      - grad_content_types
+      - azgrad_drupal_content_types
 id: node.frequently_asked_question.field_topic
 field_name: field_topic
 entity_type: node

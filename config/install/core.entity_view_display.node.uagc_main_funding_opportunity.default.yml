@@ -19,7 +19,7 @@ dependencies:
     - user
   enforced:
     module:
-      - grad_content_types
+      - azgrad_drupal_content_types
 third_party_settings:
   field_group:
     group_at_a_glance:

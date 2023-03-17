@@ -3,10 +3,10 @@ status: true
 dependencies:
   module:
     - node
-    - grad_content_types
+    - azgrad_drupal_content_types
   enforced:
     module:
-      - grad_content_types
+      - azgrad_drupal_content_types
 id: node.field_funding_amount_awarded
 field_name: field_funding_amount_awarded
 entity_type: node

@@ -4,10 +4,10 @@ dependencies:
   module:
     - node
     - taxonomy
-    - grad_content_types
+    - azgrad_drupal_content_types
   enforced:
     module:
-      - grad_content_types
+      - azgrad_drupal_content_types
 id: node.field_faq_tags
 field_name: field_faq_tags
 entity_type: node

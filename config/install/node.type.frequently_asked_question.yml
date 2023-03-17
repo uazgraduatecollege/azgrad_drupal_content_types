@@ -2,11 +2,11 @@ langcode: en
 status: true
 dependencies:
   module:
-    - grad_content_types
+    - azgrad_drupal_content_types
     - menu_ui
   enforced:
     module:
-      - grad_content_types
+      - azgrad_drupal_content_types
 third_party_settings:
   menu_ui:
     available_menus:

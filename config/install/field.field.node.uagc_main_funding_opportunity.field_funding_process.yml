@@ -7,10 +7,10 @@ dependencies:
     - taxonomy.vocabulary.uagc_funding_processes
   module:
     - text
-    - grad_content_types
+    - azgrad_drupal_content_types
   enforced:
     module:
-      - grad_content_types
+      - azgrad_drupal_content_types
 id: node.uagc_main_funding_opportunity.field_funding_process
 field_name: field_funding_process
 entity_type: node

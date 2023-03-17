@@ -6,10 +6,10 @@ dependencies:
     - node.type.uagc_main_funding_opportunity
   module:
     - text
-    - grad_content_types
+    - azgrad_drupal_content_types
   enforced:
     module:
-      - grad_content_types
+      - azgrad_drupal_content_types
 id: node.uagc_main_funding_opportunity.field_funding_eligibility
 field_name: field_funding_eligibility
 entity_type: node
