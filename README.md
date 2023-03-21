@@ -1,4 +1,4 @@
-# Grad College Content Types
+# Grad College Drupal Content Types
 
 This is a custom migration module intended to define and generate custom content types for the UA Graduate College website, specifically the funding opportunity and the FAQ content types.
 
