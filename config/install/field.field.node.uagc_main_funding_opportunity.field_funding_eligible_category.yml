@@ -4,7 +4,7 @@ dependencies:
   config:
     - field.storage.node.field_funding_eligible_category
     - node.type.uagc_main_funding_opportunity
-    - taxonomy.vocabulary.uagc_funding_eligibility_categ
+    - taxonomy.vocabulary.uagc_funding_eligibility_cats
   module:
     - taxonomy
     - azgrad_drupal_content_types
@@ -27,6 +27,6 @@ settings:
     sort:
       field: _none
     target_bundles:
-      uagc_funding_eligibility_categ: uagc_funding_eligibility_categ
+      uagc_funding_eligibility_cats: uagc_funding_eligibility_cats
   handler: 'default:taxonomy_term'
 field_type: entity_reference
