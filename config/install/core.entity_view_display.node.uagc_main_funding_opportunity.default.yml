@@ -123,7 +123,7 @@ content:
     weight: 8
     region: content
   field_funding_apply_now:
-    type: text_trimmed
+    type: text_default
     label: hidden
     settings:
       trim_length: 600
@@ -131,7 +131,7 @@ content:
     weight: 4
     region: content
   field_funding_contact:
-    type: text_trimmed
+    type: text_default
     label: hidden
     settings:
       trim_length: 600
@@ -139,7 +139,7 @@ content:
     weight: 5
     region: content
   field_funding_eligibility:
-    type: text_trimmed
+    type: text_default
     label: hidden
     settings:
       trim_length: 600
