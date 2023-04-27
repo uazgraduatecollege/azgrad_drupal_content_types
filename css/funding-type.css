@@ -1,5 +1,25 @@
+.at-a-glance-fieldset .field--type-entity-reference {
+  margin-bottom: 0; 
+}
+
 .at-a-glance-fieldset .field__label,
 .at-a-glance-fieldset .field--type-entity-reference .field__label {
+  display: inline-block;
   font-weight: bold;
   margin: 0 10px 5px 0;
 }
+
+.at-a-glance-fieldset .field--type-entity-reference .field__items {
+    display: inline-block;
+}
+
+.at-a-glance-fieldset .field--type-entity-reference .field__item {
+    display: inline-block;
+}
+.at-a-glance-fieldset .field--type-entity-reference .field__item::after {
+    content: ", ";
+}
+.at-a-glance-fieldset .field--type-entity-reference .field__item:last-of-type::after {
+    content: "";
+}
+
