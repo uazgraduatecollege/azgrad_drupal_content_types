@@ -27,19 +27,25 @@ third_party_settings:
         - field_funding_number_awarded
         - field_funding_amount_awarded
         - field_funding_application_period
-        - field_funding_type
         - field_funding_process
+        - field_funding_type
         - field_funding_eligible_category
       label: 'At a Glance'
       parent_name: ''
       region: content
       weight: 0
-      format_type: fieldset
+      format_type: html_element
       format_settings:
-        classes: at-a-glance-fieldset
+        classes: 'at-a-glance-fieldset callout callout-azurite rounded bg-warm-gray'
         show_empty_fields: false
         id: ''
-        description: ''
+        element: div
+        show_label: true
+        label_element: h2
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
     group_about:
       children:
         - field_funding_about
@@ -47,12 +53,18 @@ third_party_settings:
       parent_name: ''
       region: content
       weight: 1
-      format_type: fieldset
+      format_type: html_element
       format_settings:
-        classes: ''
+        classes: 'about-fieldset bg-cool-gray rounded-top p-5'
         show_empty_fields: false
         id: ''
-        description: ''
+        element: div
+        show_label: true
+        label_element: h2
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
     group_eligibility:
       children:
         - field_funding_eligibility
@@ -60,12 +72,18 @@ third_party_settings:
       parent_name: ''
       region: content
       weight: 2
-      format_type: fieldset
+      format_type: html_element
       format_settings:
-        classes: ''
+        classes: 'eligibility-fieldset bg-cool-gray p-5'
         show_empty_fields: false
         id: ''
-        description: ''
+        element: div
+        show_label: true
+        label_element: h2
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
     group_instructions:
       children:
         - field_funding_apply_now
@@ -73,12 +91,18 @@ third_party_settings:
       parent_name: ''
       region: content
       weight: 3
-      format_type: fieldset
+      format_type: html_element
       format_settings:
-        classes: ''
+        classes: 'instructions-fieldset bg-cool-gray p-5'
         show_empty_fields: false
         id: ''
-        description: ''
+        element: div
+        show_label: true
+        label_element: h2
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
     group_contact:
       children:
         - field_funding_contact
@@ -86,14 +110,20 @@ third_party_settings:
       parent_name: ''
       region: content
       weight: 4
-      format_type: fieldset
+      format_type: html_element
       format_settings:
-        classes: ''
+        classes: 'contact-fieldset bg-cool-gray rounded-bottom p-5 mb-3'
         show_empty_fields: false
         id: ''
-        description: ''
+        element: div
+        show_label: true
+        label_element: h2
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
 _core:
-  default_config_hash: oBkArnMwipR19bvSDqGkgLaRI1XqZjyf4cOwVMrvSMQ
+  default_config_hash: SLPuXVt15tvHZSvqRa0p7PGpSbMIWT5vVbwPIjyjIRM
 id: node.uagc_main_funding_opportunity.default
 targetEntityType: node
 bundle: uagc_main_funding_opportunity
@@ -125,24 +155,21 @@ content:
   field_funding_apply_now:
     type: text_default
     label: hidden
-    settings:
-      trim_length: 600
+    settings: {  }
     third_party_settings: {  }
     weight: 4
     region: content
   field_funding_contact:
     type: text_default
     label: hidden
-    settings:
-      trim_length: 600
+    settings: {  }
     third_party_settings: {  }
     weight: 5
     region: content
   field_funding_eligibility:
     type: text_default
     label: hidden
-    settings:
-      trim_length: 600
+    settings: {  }
     third_party_settings: {  }
     weight: 3
     region: content
@@ -168,7 +195,7 @@ content:
     settings:
       link: false
     third_party_settings: {  }
-    weight: 10
+    weight: 9
     region: content
   field_funding_type:
     type: entity_reference_label
@@ -176,7 +203,7 @@ content:
     settings:
       link: false
     third_party_settings: {  }
-    weight: 9
+    weight: 10
     region: content
   links:
     settings: {  }
