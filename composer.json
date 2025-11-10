@@ -3,6 +3,6 @@
     "description": "This is a custom module for the UA Grad College to re-create custom content types..",
     "type": "drupal-custom-module",
     "require": {
-        "drupal/core": "^9 || ^10"
+        "drupal/core": "^9 || ^10 || ^11"
     }
 }
