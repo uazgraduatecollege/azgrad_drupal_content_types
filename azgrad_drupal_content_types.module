@@ -1,11 +1,16 @@
 <?php
 
-function azgrad_drupal_content_types_preprocess_page(&$variables) {
+/**
+ * @file
+ */
 
+/**
+ * Function azgrad_drupal_content_types_preprocess_page.
+ */
+function azgrad_drupal_content_types_preprocess_page(&$variables) {
   $node = $variables['node'];
-  if($node && $node->getType() == 'uagc_main_funding_opportunity'){
+
+  if ($node && $node->getType() == 'uagc_main_funding_opportunity') {
     $variables['#attached']['library'][] = 'azgrad_drupal_content_types/funding_type';
   }
-
 }
-

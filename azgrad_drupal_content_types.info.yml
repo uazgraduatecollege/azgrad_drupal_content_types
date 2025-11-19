@@ -1,6 +1,9 @@
-name: Grad Custom Content Types
-description: 'Provides Grad College website custom content types.'
-core_version_requirement: ^9 || ^10 || ^11
+name: 'Grad Custom Content Types'
 type: module
-package: 'The University of Arizona - Experimental'
-
+description: 'Provides Grad College website custom content types.'
+core_version_requirement: ^10 || ^11
+package: 'UA Graduate College - Custom'
+dependencies:
+- drupal:node
+- drupal:taxonomy
+- drupal:views

@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Funding eligibility categories'
+vid: uagc_funding_eligibility_cats
+description: null
+weight: 0
+new_revision: false

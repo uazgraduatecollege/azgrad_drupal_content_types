@@ -4,7 +4,6 @@ dependencies:
   config:
     - field.storage.node.field_faq_tags
     - node.type.frequently_asked_question
-    - taxonomy.vocabulary.tags
   module:
     - azgrad_drupal_content_types
   enforced:
@@ -31,4 +30,3 @@ settings:
     auto_create: false
     auto_create_bundle: ''
 field_type: entity_reference
-

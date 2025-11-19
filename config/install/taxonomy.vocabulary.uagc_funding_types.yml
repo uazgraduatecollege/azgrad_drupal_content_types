@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Funding types'
+vid: uagc_funding_types
+description: null
+weight: 0
+new_revision: false
