@@ -1,9 +1,10 @@
-name: 'Grad Custom Content Types'
+name: 'AZ Grad Custom Content Types'
 type: module
 description: 'Provides Grad College website custom content types.'
 core_version_requirement: ^10 || ^11
 package: 'UA Graduate College - Custom'
 dependencies:
+- drupal:field_group
 - drupal:node
 - drupal:taxonomy
 - drupal:views

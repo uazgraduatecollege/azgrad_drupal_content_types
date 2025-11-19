@@ -122,8 +122,6 @@ third_party_settings:
         attributes: ''
         effect: none
         speed: fast
-_core:
-  default_config_hash: SLPuXVt15tvHZSvqRa0p7PGpSbMIWT5vVbwPIjyjIRM
 id: node.uagc_main_funding_opportunity.default
 targetEntityType: node
 bundle: uagc_main_funding_opportunity
