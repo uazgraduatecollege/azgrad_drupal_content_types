@@ -29,4 +29,3 @@ settings:
       uagc_funding_processes: uagc_funding_processes
   handler: 'default:taxonomy_term'
 field_type: entity_reference
-

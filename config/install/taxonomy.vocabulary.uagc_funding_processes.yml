@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Funding application processes'
+vid: uagc_funding_processes
+description: null
+weight: 0
+new_revision: false

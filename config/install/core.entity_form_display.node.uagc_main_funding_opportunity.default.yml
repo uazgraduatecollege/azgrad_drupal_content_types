@@ -19,8 +19,6 @@ dependencies:
   enforced:
     module:
       - azgrad_drupal_content_types
-_core:
-  default_config_hash: 0Rh7Bs5g8K9CpRdLxph3MUv4trQWMvZP_hOpo-ooOxI
 id: node.uagc_main_funding_opportunity.default
 targetEntityType: node
 bundle: uagc_main_funding_opportunity
