@@ -8,8 +8,8 @@ dependencies:
       - azgrad_drupal_content_types
 name: 'Funding opportunity'
 type: uagc_main_funding_opportunity
-description: ''
-help: ''
+description: 'Graduate Student funding opportunities managed or offered by the Graduate College'
+help: null
 new_revision: false
 preview_mode: 1
 display_submitted: false
