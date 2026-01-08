@@ -587,7 +587,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: '<a  id=''nid-{{ nid }}''>{{ title }}</a>'
+            text: "<a id='nid-{{ nid }}'>{{ title }}</a>"
             make_link: false
             path: ''
             absolute: false

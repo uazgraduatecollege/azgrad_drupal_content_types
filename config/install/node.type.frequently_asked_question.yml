@@ -14,8 +14,8 @@ third_party_settings:
     parent: 'main:'
 name: 'Frequently Asked Question'
 type: frequently_asked_question
-description: ''
-help: ''
+description: 'A question and answer to be displayed in the GC FAQ View(s)'
+help: null
 new_revision: true
 preview_mode: 1
 display_submitted: true
